@@ -1,0 +1,7 @@
+{
+  "dataset": "qam16",
+  "model": "random_unitary",
+  "condition": "clean",
+  "seed": 8192,
+  "status": "not_yet_executed"
+}

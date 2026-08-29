@@ -1,0 +1,7 @@
+{
+  "dataset": "circles",
+  "model": "fixed_amplitude",
+  "condition": "hardware_noise",
+  "seed": 2024,
+  "status": "not_yet_executed"
+}

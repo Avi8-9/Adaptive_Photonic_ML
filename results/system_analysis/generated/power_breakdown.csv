@@ -1,0 +1,10 @@
+component,power_mW,percentage
+laser,35.0,19.662921
+modulator,22.0,12.359551
+DAC,30.0,16.853933
+PD_TIA,18.0,10.11236
+ADC,35.0,19.662921
+digital,15.0,8.426966
+thermal,8.0,4.494382
+memory,10.0,5.617978
+photonic_core,5.0,2.808989

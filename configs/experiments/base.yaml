@@ -1,0 +1,27 @@
+experiment:
+  name: adaptive_photonic_ml
+  seed: 42
+
+data:
+  validation_fraction: 0.10
+
+model:
+  num_modes: 32
+
+training:
+  optimizer: Adam
+  learning_rate: 0.001
+  batch_size: 64
+  epochs: 100
+  early_stopping_patience: 20
+
+hardware:
+  insertion_loss_db_per_mode: 1.0
+  phase_noise_sigma_rad: 0.05
+  adc_bits: 8
+
+output:
+  save_checkpoints: true
+  save_training_history: true
+  save_predictions: true
+  save_metrics: true

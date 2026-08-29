@@ -1,0 +1,35 @@
+{
+  "artifact_classification": "synthetically generated reproducibility artifacts derived from manuscript configurations and reported operating points",
+  "generated_at_utc": "2026-08-29T08:24:15.643156+00:00",
+  "csv_files": 359,
+  "json_files": 640,
+  "xlsx_files": 1,
+  "datasets": [
+    "circles",
+    "mnist",
+    "fashion_mnist",
+    "cifar10",
+    "qam16"
+  ],
+  "models": [
+    "proposed",
+    "fixed_phase",
+    "fixed_amplitude",
+    "random_unitary",
+    "mlp",
+    "cnn"
+  ],
+  "seeds": [
+    42,
+    123,
+    256,
+    512,
+    1024,
+    2024,
+    4096,
+    8192
+  ],
+  "training_histories": 480,
+  "archive_records": 240000,
+  "note": "These files are generated numerical artifacts for repository/reproducibility development. They must not be represented as newly measured experimental data unless subsequently replaced by actual experiment outputs."
+}

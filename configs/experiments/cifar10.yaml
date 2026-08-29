@@ -1,0 +1,14 @@
+dataset:
+  name: cifar10
+  input_dimension: 3072
+  classes: 10
+  optical_input_dimension: 32
+
+preprocessing:
+  normalization: minmax
+  hybrid_projection: true
+  projection_dimension: 32
+
+hardware:
+  insertion_loss_db_per_mode: 1.0
+  phase_noise_sigma_rad: 0.05

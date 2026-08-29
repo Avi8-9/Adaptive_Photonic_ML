@@ -1,0 +1,7 @@
+{
+  "dataset": "mnist",
+  "model": "proposed",
+  "condition": "hardware_noise",
+  "seed": 4096,
+  "status": "not_yet_executed"
+}

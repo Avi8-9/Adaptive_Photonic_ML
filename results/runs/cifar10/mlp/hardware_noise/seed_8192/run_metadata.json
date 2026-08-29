@@ -1,0 +1,7 @@
+{
+  "dataset": "cifar10",
+  "model": "mlp",
+  "condition": "hardware_noise",
+  "seed": 8192,
+  "status": "not_yet_executed"
+}

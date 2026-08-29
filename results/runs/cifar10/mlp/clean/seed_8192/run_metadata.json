@@ -1,0 +1,7 @@
+{
+  "dataset": "cifar10",
+  "model": "mlp",
+  "condition": "clean",
+  "seed": 8192,
+  "status": "not_yet_executed"
+}

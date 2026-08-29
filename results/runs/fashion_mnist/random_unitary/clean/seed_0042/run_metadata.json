@@ -1,0 +1,7 @@
+{
+  "dataset": "fashion_mnist",
+  "model": "random_unitary",
+  "condition": "clean",
+  "seed": 42,
+  "status": "not_yet_executed"
+}

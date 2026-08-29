@@ -1,0 +1,7 @@
+{
+  "dataset": "qam16",
+  "model": "mlp",
+  "condition": "hardware_noise",
+  "seed": 2024,
+  "status": "not_yet_executed"
+}

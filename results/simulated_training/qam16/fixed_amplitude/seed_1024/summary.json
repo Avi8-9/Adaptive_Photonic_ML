@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "qam16",
+  "model": "fixed_amplitude",
+  "seed": 1024,
+  "epochs": 100,
+  "final_validation_accuracy": 0.86639879,
+  "final_validation_loss": 0.05512002,
+  "generation_timestamp": "2026-08-29T08:24:09.420131+00:00"
+}

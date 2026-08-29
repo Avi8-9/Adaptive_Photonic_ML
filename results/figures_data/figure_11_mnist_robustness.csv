@@ -1,0 +1,9 @@
+dataset,model,seed,condition,phase_noise_sigma_rad,insertion_loss_db_per_mode,accuracy,accuracy_drop
+mnist,proposed,42,hardware_noise,0.05,1.0,0.951923,0.034466
+mnist,proposed,123,hardware_noise,0.05,1.0,0.950357,0.036623
+mnist,proposed,256,hardware_noise,0.05,1.0,0.951685,0.034697
+mnist,proposed,512,hardware_noise,0.05,1.0,0.951809,0.033053
+mnist,proposed,1024,hardware_noise,0.05,1.0,0.949967,0.03646
+mnist,proposed,2024,hardware_noise,0.05,1.0,0.955942,0.033401
+mnist,proposed,4096,hardware_noise,0.05,1.0,0.952452,0.035569
+mnist,proposed,8192,hardware_noise,0.05,1.0,0.94798,0.038299

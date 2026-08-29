@@ -1,0 +1,7 @@
+{
+  "dataset": "mnist",
+  "model": "mlp",
+  "condition": "clean",
+  "seed": 123,
+  "status": "not_yet_executed"
+}

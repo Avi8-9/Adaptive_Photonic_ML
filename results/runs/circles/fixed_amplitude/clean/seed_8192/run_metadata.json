@@ -1,0 +1,7 @@
+{
+  "dataset": "circles",
+  "model": "fixed_amplitude",
+  "condition": "clean",
+  "seed": 8192,
+  "status": "not_yet_executed"
+}

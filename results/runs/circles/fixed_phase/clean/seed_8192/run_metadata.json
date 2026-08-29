@@ -1,0 +1,7 @@
+{
+  "dataset": "circles",
+  "model": "fixed_phase",
+  "condition": "clean",
+  "seed": 8192,
+  "status": "not_yet_executed"
+}

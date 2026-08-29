@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "circles",
+  "model": "cnn",
+  "seed": 42,
+  "epochs": 100,
+  "final_validation_accuracy": 0.9765104,
+  "final_validation_loss": 0.0198781,
+  "generation_timestamp": "2026-08-29T08:24:08.578377+00:00"
+}

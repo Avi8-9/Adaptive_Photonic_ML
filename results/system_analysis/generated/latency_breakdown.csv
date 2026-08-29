@@ -1,0 +1,11 @@
+component,latency_ns,percentage
+load,4.0,3.533569
+preprocess,8.0,7.067138
+DAC,12.0,10.600707
+modulation,5.0,4.416961
+optical,0.6,0.530035
+PD_TIA,14.0,12.367491
+ADC,20.0,17.667845
+postprocess,30.0,26.501767
+interface,19.6,17.314488
+TOTAL,113.2,100.0

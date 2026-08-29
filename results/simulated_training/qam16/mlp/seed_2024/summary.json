@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "qam16",
+  "model": "mlp",
+  "seed": 2024,
+  "epochs": 100,
+  "final_validation_accuracy": 0.92505486,
+  "final_validation_loss": 0.03512887,
+  "generation_timestamp": "2026-08-29T08:24:09.504585+00:00"
+}

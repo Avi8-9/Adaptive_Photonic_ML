@@ -1,0 +1,7 @@
+{
+  "dataset": "circles",
+  "model": "proposed",
+  "condition": "hardware_noise",
+  "seed": 256,
+  "status": "not_yet_executed"
+}

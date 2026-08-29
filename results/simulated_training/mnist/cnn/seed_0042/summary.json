@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "mnist",
+  "model": "cnn",
+  "seed": 42,
+  "epochs": 100,
+  "final_validation_accuracy": 0.99381321,
+  "final_validation_loss": 0.01953085,
+  "generation_timestamp": "2026-08-29T08:24:08.804142+00:00"
+}

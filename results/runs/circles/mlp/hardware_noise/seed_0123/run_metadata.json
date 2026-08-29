@@ -1,0 +1,7 @@
+{
+  "dataset": "circles",
+  "model": "mlp",
+  "condition": "hardware_noise",
+  "seed": 123,
+  "status": "not_yet_executed"
+}

@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "qam16",
+  "model": "cnn",
+  "seed": 123,
+  "epochs": 100,
+  "final_validation_accuracy": 0.96272432,
+  "final_validation_loss": 0.02567853,
+  "generation_timestamp": "2026-08-29T08:24:09.529764+00:00"
+}

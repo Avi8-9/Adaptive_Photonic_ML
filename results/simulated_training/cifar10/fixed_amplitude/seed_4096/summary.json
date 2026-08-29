@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "cifar10",
+  "model": "fixed_amplitude",
+  "seed": 4096,
+  "epochs": 100,
+  "final_validation_accuracy": 0.6736583,
+  "final_validation_loss": 0.12345276,
+  "generation_timestamp": "2026-08-29T08:24:09.196129+00:00"
+}

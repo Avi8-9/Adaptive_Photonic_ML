@@ -1,0 +1,7 @@
+{
+  "dataset": "cifar10",
+  "model": "proposed",
+  "condition": "clean",
+  "seed": 1024,
+  "status": "not_yet_executed"
+}

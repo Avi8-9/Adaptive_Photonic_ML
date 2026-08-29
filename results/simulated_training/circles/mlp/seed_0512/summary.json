@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "circles",
+  "model": "mlp",
+  "seed": 512,
+  "epochs": 100,
+  "final_validation_accuracy": 0.93840709,
+  "final_validation_loss": 0.03659451,
+  "generation_timestamp": "2026-08-29T08:24:08.556004+00:00"
+}

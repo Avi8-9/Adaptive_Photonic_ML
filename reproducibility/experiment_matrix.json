@@ -1,0 +1,34 @@
+{
+  "project": "Adaptive Amplitude-Phase Encoding and Physically Constrained Optimization for High-Performance Photonic Machine Learning",
+  "datasets": [
+    "circles",
+    "mnist",
+    "fashion_mnist",
+    "cifar10",
+    "qam16"
+  ],
+  "architectures": [
+    "proposed",
+    "fixed_phase",
+    "fixed_amplitude",
+    "random_unitary",
+    "mlp",
+    "cnn"
+  ],
+  "ablations": [
+    "no_regularization",
+    "no_loss_modeling",
+    "no_learnable_encoding"
+  ],
+  "hardware_sweeps": [
+    "phase_noise",
+    "insertion_loss",
+    "adc_quantization"
+  ],
+  "default_optical_modes": 32,
+  "default_clements_mzi_count": 496,
+  "default_batch_size": 64,
+  "default_epochs": 100,
+  "default_validation_fraction": 0.10,
+  "default_random_seed": 42
+}

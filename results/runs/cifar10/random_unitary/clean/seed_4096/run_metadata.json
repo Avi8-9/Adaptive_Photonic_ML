@@ -1,0 +1,7 @@
+{
+  "dataset": "cifar10",
+  "model": "random_unitary",
+  "condition": "clean",
+  "seed": 4096,
+  "status": "not_yet_executed"
+}

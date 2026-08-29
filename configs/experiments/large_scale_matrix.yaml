@@ -1,0 +1,103 @@
+project:
+  name: Adaptive_Photonic_ML
+  description: >
+    Large-scale reproducibility matrix for adaptive amplitude-phase
+    photonic machine learning and physically constrained optimization.
+
+datasets:
+
+  circles:
+    input_dim: 2
+    classes: 2
+    optical_modes: 32
+
+  mnist:
+    input_dim: 784
+    classes: 10
+    optical_modes: 32
+
+  fashion_mnist:
+    input_dim: 784
+    classes: 10
+    optical_modes: 32
+
+  cifar10:
+    input_dim: 3072
+    classes: 10
+    optical_modes: 32
+
+  qam16:
+    input_dim: 2
+    classes: 4
+    optical_modes: 32
+
+models:
+  - proposed
+  - fixed_phase
+  - fixed_amplitude
+  - random_unitary
+  - mlp
+
+conditions:
+  - clean
+  - hardware_noise
+
+seeds:
+  - 42
+  - 123
+  - 256
+  - 512
+  - 1024
+  - 2024
+  - 4096
+  - 8192
+
+training:
+  optimizer: Adam
+  learning_rate:
+    - 0.001
+    - 0.0005
+    - 0.0001
+  batch_size:
+    - 32
+    - 64
+    - 128
+  epochs: 100
+  validation_fraction: 0.10
+  early_stopping_patience: 20
+
+hardware:
+  insertion_loss_db_per_mode:
+    - 0.0
+    - 0.5
+    - 1.0
+    - 1.5
+    - 2.0
+    - 3.0
+    - 4.0
+
+  phase_noise_sigma_rad:
+    - 0.00
+    - 0.01
+    - 0.02
+    - 0.03
+    - 0.04
+    - 0.05
+    - 0.06
+    - 0.08
+    - 0.10
+    - 0.12
+    - 0.15
+
+  adc_bits:
+    - 4
+    - 6
+    - 8
+    - 10
+    - 12
+
+ablations:
+  - complete_framework
+  - no_regularization
+  - no_loss_modeling
+  - no_learnable_encoding

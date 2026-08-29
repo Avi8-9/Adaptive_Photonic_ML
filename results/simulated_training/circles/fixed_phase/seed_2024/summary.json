@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "circles",
+  "model": "fixed_phase",
+  "seed": 2024,
+  "epochs": 100,
+  "final_validation_accuracy": 0.89962686,
+  "final_validation_loss": 0.03685944,
+  "generation_timestamp": "2026-08-29T08:24:08.442993+00:00"
+}

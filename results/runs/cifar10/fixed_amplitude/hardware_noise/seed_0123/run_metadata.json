@@ -1,0 +1,7 @@
+{
+  "dataset": "cifar10",
+  "model": "fixed_amplitude",
+  "condition": "hardware_noise",
+  "seed": 123,
+  "status": "not_yet_executed"
+}

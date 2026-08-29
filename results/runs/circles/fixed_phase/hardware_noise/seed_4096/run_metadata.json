@@ -1,0 +1,7 @@
+{
+  "dataset": "circles",
+  "model": "fixed_phase",
+  "condition": "hardware_noise",
+  "seed": 4096,
+  "status": "not_yet_executed"
+}

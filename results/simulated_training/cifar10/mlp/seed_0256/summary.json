@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "cifar10",
+  "model": "mlp",
+  "seed": 256,
+  "epochs": 100,
+  "final_validation_accuracy": 0.71935621,
+  "final_validation_loss": 0.10777677,
+  "generation_timestamp": "2026-08-29T08:24:09.257999+00:00"
+}

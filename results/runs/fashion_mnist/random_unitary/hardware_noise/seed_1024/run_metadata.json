@@ -1,0 +1,7 @@
+{
+  "dataset": "fashion_mnist",
+  "model": "random_unitary",
+  "condition": "hardware_noise",
+  "seed": 1024,
+  "status": "not_yet_executed"
+}

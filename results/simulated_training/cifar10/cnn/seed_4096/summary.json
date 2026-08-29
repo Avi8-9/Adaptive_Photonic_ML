@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "cifar10",
+  "model": "cnn",
+  "seed": 4096,
+  "epochs": 100,
+  "final_validation_accuracy": 0.74868217,
+  "final_validation_loss": 0.10104852,
+  "generation_timestamp": "2026-08-29T08:24:09.301985+00:00"
+}

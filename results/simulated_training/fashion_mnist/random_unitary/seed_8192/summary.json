@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "fashion_mnist",
+  "model": "random_unitary",
+  "seed": 8192,
+  "epochs": 100,
+  "final_validation_accuracy": 0.74114092,
+  "final_validation_loss": 0.10576919,
+  "generation_timestamp": "2026-08-29T08:24:09.003897+00:00"
+}

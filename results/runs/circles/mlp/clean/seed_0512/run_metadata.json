@@ -1,0 +1,7 @@
+{
+  "dataset": "circles",
+  "model": "mlp",
+  "condition": "clean",
+  "seed": 512,
+  "status": "not_yet_executed"
+}

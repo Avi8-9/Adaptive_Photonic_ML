@@ -1,0 +1,39 @@
+tables:
+
+  controlled_comparison:
+    title: "Controlled numerical comparison"
+    datasets:
+      - MNIST
+      - Fashion-MNIST
+      - CIFAR-10
+      - 16-QAM
+    conditions:
+      - clean
+      - noisy
+
+  ablation:
+    title: "Ablation study"
+    datasets:
+      - MNIST
+      - CIFAR-10
+    conditions:
+      - clean
+      - noisy
+
+  hardware_robustness:
+    parameters:
+      phase_noise_sigma:
+        start: 0.00
+        stop: 0.15
+        step: 0.01
+
+      insertion_loss_db_per_mode:
+        values:
+          - 0.0
+          - 0.5
+          - 1.0
+          - 1.5
+          - 2.0
+          - 3.0
+          - 4.0
+          - 5.0

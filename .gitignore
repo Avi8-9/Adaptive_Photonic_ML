@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Temporary files
+*.temp
+*.bak
+~$*
+
+# Model checkpoints / binary weights
+*.pth
+*.ckpt
+
+# Do not commit local environment secrets
+.env
+.env.*
+
+# Keep repository-generated CSV/XLSX/JSON/NPY data.
+# These are intentionally NOT ignored because they form
+# part of the reproducibility package.

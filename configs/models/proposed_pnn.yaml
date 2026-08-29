@@ -1,0 +1,34 @@
+model:
+  name: adaptive_amplitude_phase_pnn
+  num_modes: 32
+  input_dim: 32
+  num_classes: 10
+  encoder_hidden_dims:
+    - 128
+    - 128
+
+photonic_processor:
+  architecture: clements_mesh
+  mzi_count: 496
+
+optical_encoding:
+  learnable_amplitude: true
+  learnable_phase: true
+  phase_min: 0.0
+  phase_max: 6.283185307179586
+  unit_power_normalization: true
+
+hardware:
+  insertion_loss_db_per_mode: 1.0
+  phase_noise_sigma_rad: 0.05
+  detector_noise: true
+  adc_bits: 8
+
+training:
+  optimizer: Adam
+  learning_rate: 0.001
+  beta1: 0.9
+  beta2: 0.999
+  batch_size: 64
+  epochs: 100
+  lambda_physical: 0.001

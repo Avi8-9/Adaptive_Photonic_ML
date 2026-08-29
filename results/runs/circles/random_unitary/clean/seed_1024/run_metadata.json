@@ -1,0 +1,7 @@
+{
+  "dataset": "circles",
+  "model": "random_unitary",
+  "condition": "clean",
+  "seed": 1024,
+  "status": "not_yet_executed"
+}

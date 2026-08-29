@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "fashion_mnist",
+  "model": "cnn",
+  "seed": 123,
+  "epochs": 100,
+  "final_validation_accuracy": 0.92212392,
+  "final_validation_loss": 0.05010781,
+  "generation_timestamp": "2026-08-29T08:24:09.053478+00:00"
+}

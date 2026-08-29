@@ -1,0 +1,7 @@
+{
+  "dataset": "cifar10",
+  "model": "fixed_phase",
+  "condition": "clean",
+  "seed": 512,
+  "status": "not_yet_executed"
+}

@@ -1,0 +1,7 @@
+{
+  "dataset": "circles",
+  "model": "proposed",
+  "condition": "clean",
+  "seed": 256,
+  "status": "not_yet_executed"
+}

@@ -1,0 +1,7 @@
+{
+  "dataset": "cifar10",
+  "model": "random_unitary",
+  "condition": "hardware_noise",
+  "seed": 512,
+  "status": "not_yet_executed"
+}

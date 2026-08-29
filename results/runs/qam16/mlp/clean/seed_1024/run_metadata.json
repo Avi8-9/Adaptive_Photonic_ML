@@ -1,0 +1,7 @@
+{
+  "dataset": "qam16",
+  "model": "mlp",
+  "condition": "clean",
+  "seed": 1024,
+  "status": "not_yet_executed"
+}

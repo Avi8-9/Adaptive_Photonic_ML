@@ -1,0 +1,10 @@
+{
+  "artifact_type": "synthetic_reproducibility_output",
+  "dataset": "mnist",
+  "model": "fixed_amplitude",
+  "seed": 42,
+  "epochs": 100,
+  "final_validation_accuracy": 0.89627529,
+  "final_validation_loss": 0.05515376,
+  "generation_timestamp": "2026-08-29T08:24:08.691408+00:00"
+}
