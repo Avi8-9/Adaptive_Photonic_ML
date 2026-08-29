@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Adaptive Amplitude-Phase Encoding and Physically Constrained Optimization for High-Performance Photonic Machine Learning"
+message: "Please cite the associated manuscript when using this repository."
+type: software
+repository-code: "https://github.com/Avi8-9/Adaptive_Photonic_ML"
+license: MIT
+date-released: 2026-08-29
+keywords:
+  - photonic machine learning
+  - photonic neural networks
+  - optical computing
+  - amplitude-phase encoding
+  - programmable photonics
+  - Clements mesh
+  - hardware-aware optimization
+  - complex-valued learning
